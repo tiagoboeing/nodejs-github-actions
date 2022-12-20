@@ -60,6 +60,35 @@ _Click on "Use this template > Create a new repository"._
 4. Go to `.github/workflows/` folder and replace with your project settings;
 5. Done ✅
 
+### I don't want to use Docker
+
+Remove `Dockerfile` and `docker-compose.yml` files and remove the steps on workflow files.
+
+### I don't want to publish to NPM
+
+Remove the steps on workflow files. Then go to `.release-it.json` and set the property `npm.publish` to `false`:
+
+```json
+{
+  "npm": {
+    "publish": false
+  }
+}
+```
+
+Go to `.release-it.json` and include `out` property on `@release-it/bumper` plugin. The file will look like this:
+
+```json
+{
+  "plugins": {
+    "@release-it/bumper": {
+      "in": "package.json",
+      "out": "package.json"
+    }
+  }
+}
+```
+
 # License
 
 The original project is licensed under [MIT License](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/LICENSE), so it means it's completely free to use and copy. I decided to keep this available for all and free keeping the same license as the original on this repository and respecting the original creators.
