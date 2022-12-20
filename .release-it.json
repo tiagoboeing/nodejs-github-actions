@@ -50,6 +50,8 @@
   },
   "npm": {
     "publish": true,
-    "publishPath": "dist"
+    "publishPath": "dist",
+    "timeout": 30,
+    "skipChecks": true
   }
 }
