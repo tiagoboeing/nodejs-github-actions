@@ -52,6 +52,7 @@
   "npm": {
     "publish": true,
     "publishPath": "dist",
-    "ignoreVersion": true
+    "ignoreVersion": true,
+    "skipChecks": true
   }
 }
