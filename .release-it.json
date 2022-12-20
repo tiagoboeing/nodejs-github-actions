@@ -1,7 +1,8 @@
 {
   "plugins": {
     "@release-it/bumper": {
-      "in": "package.json"
+      "in": "package.json",
+      "out": "package.json"
     },
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
@@ -50,6 +51,7 @@
   },
   "npm": {
     "publish": true,
-    "publishPath": "dist"
+    "publishPath": "dist",
+    "ignoreVersion": true
   }
 }
