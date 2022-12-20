@@ -52,6 +52,8 @@ jobs:
       - name: Generate pre-release
         if: ${{ inputs.pre_release != 'false' }}
         run: npm run release -- --ci pre${{ inputs.version }}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Get generated version
         id: get_version
