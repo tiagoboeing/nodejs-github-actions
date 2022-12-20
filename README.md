@@ -33,6 +33,14 @@ _For now the workflows work only for repositories with the `master/main` branch.
 | Snapshots       | `.github/workflows/snapshot.yml` | Create snapshot versions to test changes in any branch/PR. Always triggered.                                                                     |
 | Build           | `.github/workflows/build.yml`    | Build and test app, running default NodeJS process steps.                                                                                        |
 
+## Examples
+
+- [Docker Hub image](https://hub.docker.com/repository/docker/tiagoboeing/nodejs-github-actions)
+- [NPM package](https://www.npmjs.com/package/@tiagoboeing/nodejs-github-actions)
+- [Releases page](https://github.com/tiagoboeing/nodejs-github-actions/releases)
+- [Tags](https://github.com/tiagoboeing/nodejs-github-actions/tags)
+- [Changelog](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/CHANGELOG)
+
 ## Notes
 
 This repository is template with all configurations for the package [`release-it`](https://github.com/release-it/release-it/). Bugs or questions about needs to be opened on the original repository.
