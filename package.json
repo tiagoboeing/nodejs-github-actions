@@ -1,7 +1,6 @@
 {
   "name": "@tiagoboeing/bull-board",
   "version": "1.0.2",
-  "private": false,
   "main": "index.js",
   "description": "Workflows to control releases on GitHub Actions.",
   "keywords": [
@@ -20,6 +19,9 @@
   },
   "license": "MIT",
   "author": "Tiago Boeing <contato@tiagoboeing.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint \"./**/*.ts*\"",
     "build": "tsc",

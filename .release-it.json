@@ -49,5 +49,8 @@
     "release": true,
     "releaseName": "v${version}"
   },
-  "npm": true
+  "npm": {
+    "publish": true,
+    "publishPath": "dist"
+  }
 }
