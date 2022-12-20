@@ -51,7 +51,7 @@ jobs:
       - run: npm ci
 
       - name: Generate release
-        if: ${{ inputs.pre_release == 'false' }}
+        if: ${{ inputs.pre_release == false }}
         run: npm run release -- --ci ${{ inputs.version }}
         env:
           DEBUG: "release-it:*"
