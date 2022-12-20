@@ -53,10 +53,14 @@ jobs:
       - name: Generate release
         if: ${{ inputs.pre_release == 'false' }}
         run: npm run release -- --ci ${{ inputs.version }}
+        env:
+          DEBUG: "release-it:*"
 
       - name: Generate pre-release
         if: ${{ inputs.pre_release != 'false' }}
         run: npm run release -- --ci pre${{ inputs.version }}
+        env:
+          DEBUG: "release-it:*"
 
       - name: Get generated version
         id: get_version
