@@ -1,0 +1,71 @@
+{
+  "name": "@tiagoboeing/bull-board",
+  "version": "1.0.2",
+  "private": false,
+  "main": "index.js",
+  "description": "Workflows to control releases on GitHub Actions.",
+  "keywords": [
+    "nodejs",
+    "github-actions",
+    "typescript",
+    "ci-cd",
+    "docker"
+  ],
+  "bugs": {
+    "url": "https://github.com/tiagoboeing/nodejs-github-actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagoboeing/nodejs-github-actions.git"
+  },
+  "license": "MIT",
+  "author": "Tiago Boeing <contato@tiagoboeing.com>",
+  "scripts": {
+    "lint": "eslint \"./**/*.ts*\"",
+    "build": "tsc",
+    "start:dev": "ts-node-dev --rs src/index.ts",
+    "start:docker": "docker-compose up -d",
+    "release": "release-it --only-version",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime": "^7.20.6",
+    "@release-it/bumper": "^4.0.0",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "@types/bull": "^3.15.9",
+    "@types/express": "^4.17.15",
+    "@types/ioredis": "^4.28.10",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.17",
+    "@types/redis-info": "^3.0.0",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "babel-loader": "^9.1.0",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.1",
+    "release-it": "^15.5.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}

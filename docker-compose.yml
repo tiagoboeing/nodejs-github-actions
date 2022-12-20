@@ -1,0 +1,18 @@
+version: '3'
+
+name: nodejs-github-actions
+services:
+  api:
+    container_name: api-nodejs
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    command: npm run start:dev
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 3000:3000
+      - 9229:9229 # debugger
+
