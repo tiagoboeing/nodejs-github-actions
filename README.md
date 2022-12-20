@@ -56,8 +56,9 @@ _Click on "Use this template > Create a new repository"._
    1. Change other properties like `repository`, `author`, `license`, etc.
 2. Change the Docker properties to your project name (or remove the files if you don't need Docker);
    1. Create two secrets on repository: `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` ([how to create access token docs](https://docs.docker.com/docker-hub/access-tokens/));
-3. Go to `.github/workflows/` folder and replace with your project settings;
-4. Done ✅
+3. Create a secret called `NPM_TOKEN` if you desire to publish your package to NPM;
+4. Go to `.github/workflows/` folder and replace with your project settings;
+5. Done ✅
 
 # License
 
