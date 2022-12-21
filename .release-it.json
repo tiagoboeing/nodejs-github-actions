@@ -50,7 +50,6 @@
   },
   "npm": {
     "publish": true,
-    "publishPath": "dist",
     "timeout": 30
   }
 }
