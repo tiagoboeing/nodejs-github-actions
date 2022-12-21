@@ -1,5 +1,17 @@
 
 
+### [1.0.1](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.0...v1.0.1) (2022-12-21)
+
+
+### Docs
+
+* :memo: Use diff inside code blocks ([d5a0319](https://github.com/tiagoboeing/nodejs-github-actions/commit/d5a03191c4f6451950fb5814e0f42ac957520d06))
+
+
+### Others
+
+* :memo: Created own section to include changes on documentation ([941ca54](https://github.com/tiagoboeing/nodejs-github-actions/commit/941ca547e1a27c9ff7107183dc64dbdff6f6a64b))
+
 ## [1.0.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.0-0...v1.0.0) (2022-12-21)
 
 ## 1.0.0-0 (2022-12-21)
