@@ -66,7 +66,7 @@ Remove `Dockerfile` and `docker-compose.yml` files and remove the steps on workf
 
 ### I don't want to publish to NPM
 
-Remove the steps on workflow files. Then go to `.release-it.json` and set the property `npm.publish` to `false`:
+When using Docker + NPM, NPM is responsible by changing `version` inside `package.json`. If you don't planning to use NPM anymore, then go to `.release-it.json` and set the property `npm.publish` to `false`:
 
 ```json
 {
@@ -88,6 +88,8 @@ Go to `.release-it.json` and include `out` property on `@release-it/bumper` plug
   }
 }
 ```
+
+For NPM, you can remove `NPM login` on workflow files.
 
 # License
 
