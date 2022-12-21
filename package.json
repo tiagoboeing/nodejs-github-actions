@@ -1,6 +1,6 @@
 {
   "name": "@tiagoboeing/nodejs-github-actions",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "main": "index.js",
   "description": "Workflows to control releases on GitHub Actions.",
   "keywords": [
