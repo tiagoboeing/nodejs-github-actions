@@ -27,7 +27,7 @@
     "build": "tsc",
     "start:dev": "ts-node-dev --rs src/index.ts",
     "start:docker": "docker-compose up -d",
-    "release": "release-it --only-version",
+    "release": "release-it",
     "test": "jest"
   },
   "devDependencies": {
