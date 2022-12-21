@@ -1,5 +1,7 @@
 
 
+## [1.0.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.0-0...v1.0.0) (2022-12-21)
+
 ## 1.0.0-0 (2022-12-21)
 
 
