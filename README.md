@@ -39,7 +39,7 @@ _For now the workflows work only for repositories with the `master/main` branch.
 - [NPM package](https://www.npmjs.com/package/@tiagoboeing/nodejs-github-actions)
 - [Releases page](https://github.com/tiagoboeing/nodejs-github-actions/releases)
 - [Tags](https://github.com/tiagoboeing/nodejs-github-actions/tags)
-- [Changelog](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/CHANGELOG)
+- [Changelog](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/CHANGELOG.md)
 
 ## Notes
 
