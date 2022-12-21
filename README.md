@@ -68,22 +68,22 @@ Remove `Dockerfile` and `docker-compose.yml` files and remove the steps on workf
 
 When using Docker + NPM, NPM is responsible by changing `version` inside `package.json`. If you don't planning to use NPM anymore, then go to `.release-it.json` and set the property `npm.publish` to `false`:
 
-```json
+```diff
 {
   "npm": {
-    "publish": false
++   "publish": false
   }
 }
 ```
 
 Go to `.release-it.json` and include `out` property on `@release-it/bumper` plugin. The file will look like this:
 
-```json
+```diff
 {
   "plugins": {
     "@release-it/bumper": {
       "in": "package.json",
-      "out": "package.json"
++     "out": "package.json"
     }
   }
 }
