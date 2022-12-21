@@ -54,11 +54,11 @@ jobs:
 
       - name: Generate release
         if: ${{ inputs.pre_release == false }}
-        run: npm run release -- ${{ inputs.version }} --ci -VV
+        run: npm run release -- ${{ inputs.version }} --ci
 
       - name: Generate pre-release
         if: ${{ inputs.pre_release != false }}
-        run: npm run release -- pre${{ inputs.version }} --ci -VV
+        run: npm run release -- pre${{ inputs.version }} --ci
 
       - name: Get generated version
         id: get_version
