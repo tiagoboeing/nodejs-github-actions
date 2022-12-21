@@ -51,11 +51,6 @@
   "npm": {
     "publish": true,
     "publishPath": "dist",
-    "publishArgs": ["--registry=https://registry.npmjs.org"],
-    "publishConfig": {
-      "registry": "https://registry.npmjs.org"
-    },
-    "timeout": 30,
-    "skipChecks": true
+    "timeout": 30
   }
 }
