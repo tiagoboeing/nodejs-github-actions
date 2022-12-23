@@ -93,4 +93,4 @@ For NPM, you can remove `NPM login` on workflow files.
 
 # License
 
-The original project is licensed under [MIT License](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/LICENSE), so it means it's completely free to use and copy. I decided to keep this available for all and free keeping the same license as the original on this repository and respecting the original creators.
+This project is licensed under [MIT License](https://github.com/tiagoboeing/nodejs-github-actions/blob/master/LICENSE), so it means it's completely free to use and copy.
