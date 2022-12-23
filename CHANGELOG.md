@@ -1,5 +1,12 @@
 
 
+### [1.0.2-0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.1...v1.0.2-0) (2022-12-23)
+
+
+### Docs
+
+* :memo: Updated license section ([07f1bfe](https://github.com/tiagoboeing/nodejs-github-actions/commit/07f1bfecc71b17d5be093673758f6f1faf8a4274))
+
 ### [1.0.1](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.0...v1.0.1) (2022-12-21)
 
 
