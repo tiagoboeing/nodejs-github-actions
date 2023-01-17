@@ -58,7 +58,7 @@ jobs:
 
       - name: Generate pre-release
         if: ${{ inputs.pre_release != false }}
-        run: npm run release -- pre${{ inputs.version }} --ci
+        run: npm run release -- ${{ inputs.version }} --preRelease=rc --ci --git.tagExclude='*[-rc]*'
 
       - name: Get generated version
         id: get_version
