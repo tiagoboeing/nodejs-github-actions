@@ -1,4 +1,16 @@
+# Changelog
 
+## [1.1.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.3...v1.1.0) (2023-01-17)
+
+
+### Docs
+
+* :memo: Docs about skipping version ([24c4915](https://github.com/tiagoboeing/nodejs-github-actions/commit/24c4915a525c89125bfdc2ad91660a7a768d621e))
+
+
+### Others
+
+* Added header to CHANGELOG.md file ([0638864](https://github.com/tiagoboeing/nodejs-github-actions/commit/0638864e469f8cb3391ca3c1dd160bf4cfe04576))
 
 ### [1.0.3](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-rc.0...v1.0.3) (2023-01-17)
 
