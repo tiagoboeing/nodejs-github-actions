@@ -1,3 +1,13 @@
+
+
+### [1.0.3](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-rc.0...v1.0.3) (2023-01-17)
+
+
+### Bug Fixes
+
+* :construction_worker: Fixed to releases join release candidates changelog ([fcf7a46](https://github.com/tiagoboeing/nodejs-github-actions/commit/fcf7a46647f5e24e8730f1b5bc9d6635969bf11d))
+* :construction_worker: Pre-releases include previous release candidates changes ([d801d85](https://github.com/tiagoboeing/nodejs-github-actions/commit/d801d85394f54056a7a0a89f28faa2fb82fa6713))
+
 ### [1.0.2](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-0...v1.0.2-rc.0) (2023-01-17)
 
 * Skipped for release flow tests purposes!
