@@ -76,20 +76,19 @@ When using Docker + NPM, NPM is responsible by changing `version` inside `packag
 }
 ```
 
-Go to `.release-it.json` and include `out` property on `@release-it/bumper` plugin. The file will look like this:
-
-```diff
-{
-  "plugins": {
-    "@release-it/bumper": {
-      "in": "package.json",
-+     "out": "package.json"
-    }
-  }
-}
-```
-
 For NPM, you can remove `NPM login` on workflow files.
+
+## Troubleshooting
+
+### Need skip/delete version
+
+> Avoid this! **Don't recommended!**
+
+If you removed some version from NPM or things like that and need to skip a version (I don't known why, but okay...).
+
+Simply change the `version` property inside `package.json` to a previous version.
+
+Example: if you desire to go to `1.0.2`, change `version` property to `1.0.1` and run create release workflow.
 
 # License
 
