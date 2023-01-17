@@ -1,5 +1,12 @@
 
 
+### [1.0.2-rc.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-0...v1.0.2-rc.0) (2023-01-17)
+
+
+### Others
+
+* :construction_worker: Naming pre-releases as `rc` (release candidate) ([7cbd551](https://github.com/tiagoboeing/nodejs-github-actions/commit/7cbd551d64e828175989504b7a2500776e6e9972))
+
 ### [1.0.2-0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.1...v1.0.2-0) (2022-12-23)
 
 
