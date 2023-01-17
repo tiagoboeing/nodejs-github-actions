@@ -1,3 +1,7 @@
+### [1.0.2](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-0...v1.0.2-rc.0) (2023-01-17)
+
+* Skipped for release flow tests purposes!
+
 ### [1.0.2-rc.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-0...v1.0.2-rc.0) (2023-01-17)
 
 
