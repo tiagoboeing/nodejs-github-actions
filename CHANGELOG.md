@@ -1,12 +1,3 @@
-
-
-### [1.0.2](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-rc.0...v1.0.2) (2023-01-17)
-
-
-### Bug Fixes
-
-* :construction_worker: Fixed to releases join release candidates changelog ([fcf7a46](https://github.com/tiagoboeing/nodejs-github-actions/commit/fcf7a46647f5e24e8730f1b5bc9d6635969bf11d))
-
 ### [1.0.2-rc.0](https://github.com/tiagoboeing/nodejs-github-actions/compare/v1.0.2-0...v1.0.2-rc.0) (2023-01-17)
 
 
